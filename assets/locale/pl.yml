@@ -2,42 +2,42 @@ flagrow-masquerade:
     forum:
         alerts:
             profile-completion-required: >
-                Please complete the necessary profile fields below.
+                Proszę uzupełnić wymagane pola poniżej.
         buttons:
-            view-profile: View profile
-            configure-profile: Configure profile
-            save-profile: Save
+            view-profile: Zobacz profil
+            configure-profile: Konfiguruj profil
+            save-profile: Zapisz
     admin:
         buttons:
-            add-field: Add field
-            edit-field: Edit field
-            delete-field: Delete field
+            add-field: Dodaj pole
+            edit-field: Edytuj pole
+            delete-field: Usuń pole
         permissions:
             have-profile: Have masquerade profile
             view-profile: View masquerade profile
         menu:
             description: >
-                Configure user profile fields.
+                Konfiguruj pola profili użytkowników.
         fields:
-            add: Add field {field}
-            edit: Edit field {field}
-            name: Field name
+            add: Dodaj pole {field}
+            edit: Edytuj pole {field}
+            name: Nazwa pola
             name-help: >
                 The publicly visible (non-translatable) field label.
-            description: Field description
+            description: Opis pola
             description-help: >
                 An optional description to explain the use/need of this field.
-            required: Mark field obligatory
-            validation: Validation
+            required: Oznacz pole jako wymagane
+            validation: Walidacja
             validation-help: >
                 Check the supported <a>Laravel validation rules</a>. Eg:
                 "string,min:5" or "url".
-            prefix: Field prefix
+            prefix: Przedrostek pola
             prefix-help: >
                 Shows your prefix in front of values entered by the user for this field.
-            icon: Icon
+            icon: Ikona
             icon-help: >
                 Shows an icon in front of values entered by the user. For a reference of
                 available icons, check the <a>FontAwesome website</a>. Use "info" without
                 the "fa-" prefix.
-            force-user-to-completion: Force user to complete profile
+            force-user-to-completion: Wymuś uzupełnienie profilu na użytkowniku.
